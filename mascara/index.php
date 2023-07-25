@@ -18,7 +18,17 @@ require '../mascara/templates/head.html';
 <!---------------------BODY---------------------->
 
 <body>
-  Включить защиту
+  
+<div class="banner-box">
+<div class="banner-one">
+  <h1 class="banner-h1">Наращивание ресниц Тюмень</h1>
+  <h2 class="banner-h2">Дарим 500 рублей на первое наращивание</h2>
+  <div class="btnonline">Подробнее</div>
+  <div class="banner-two">
+    <div class="banner--slider-post"></div>
+  </div>
+
+</div>
 </body>
 
 <!----------------------------------------------->

@@ -1,10 +1,24 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat-Medium", sans-serif;
-  color: #1F1F1F;
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: "Montserrat-Medium", sans-serif;color: #1F1F1F;}
+a {color: inherit;}
+body {width: 100vw;}
+
+.banner-box {
+  height: 70vh; width: 100vw;
+  background-color: #1F1F1F;
+  width: 100vw;
+
 }
-a {
-  color: inherit;
+.banner-one {
+  border: solid whitesmoke;
+}
+.banner-h1{
+}
+.banner-h2{
+}
+
+
+.banner-two{
+  border: solid whitesmoke;
+}
+.banner--slider-post{  
 }

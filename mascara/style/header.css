@@ -1,0 +1,44 @@
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
+  align-items: center;
+}
+.logo--item {
+  cursor: pointer;
+  position: relative;
+  font-family: 'Montserrat-Bold', sans-serif;
+  letter-spacing: 8px;
+  font-size: 2.1rem;
+}
+
+.logo--item::before {
+  cursor: pointer;
+  position: absolute;
+  content: '';
+  width: 65%;
+  height: 6%;
+  background-color: #1E1E1E;
+  bottom: -20%;
+  right: 0;
+}
+.navigation {
+width: 70%;
+padding-right: 25px;
+font-size: 1.1rem;
+}
+.navigation--spisok {
+  display: flex;
+  gap: 25px;
+  justify-content: end;
+}
+.btnonline {
+  cursor: pointer;
+  font-family: 'Montserrat-Light', sans-serif;
+  color: #D3D3D3;
+  font-size: 1rem;
+  padding: 1.3% 2.3%;
+  border-radius: 13px;
+  background: linear-gradient(180deg, #424242 0%, #474747 100%);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 5px 5px 0px rgba(0, 0, 0, 0.09), 0px 11px 6px 0px rgba(0, 0, 0, 0.05), 0px 19px 7px 0px rgba(0, 0, 0, 0.01), 0px 29px 8px 0px rgba(0, 0, 0, 0.00);
+}

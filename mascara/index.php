@@ -209,12 +209,67 @@ require '../mascara/templates/head.html';
   <!----------------------------------------------->
   <div class="faq-box container">
     <h2 class="h2-item">Ответы на частые вопросы</h2>
-  </div>
-  <!----------------------------------------------->
-  <div class="contacts-box container">
-    <h2 class="h2-item">Контакты</h2>
-  </div>
-  <!----------------------------------------------->
+    <div class="faq">
+      <div class="faq--item">
+        <input class="faq--input" type="checkbox" name="faq" id="faq_1"></input>
+        <label itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq--label" for='faq_1'>
+          <p itemprop="name">Вопрос 1</p>
+        </label>
+        <div class="faq--text" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Ответ на вопрос 1</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="faq--item">
+        <input class="faq--input" type="checkbox" name="faq" id="faq_2"></input>
+        <label itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq--label" for='faq_2'>
+          <p itemprop="name">Вопрос 2</p>
+        </label>
+        <div class="faq--text" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Ответ на вопрос 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="faq--item">
+        <input class="faq--input" type="checkbox" name="faq" id="faq_3"></input>
+        <label itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq--label" for='faq_3'>
+          <p itemprop="name">Вопрос 3</p>
+        </label>
+        <div class="faq--text" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Ответ на вопрос 3</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="faq--item">
+        <input class="faq--input" type="checkbox" name="faq" id="faq_4"></input>
+        <label itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq--label" for='faq_4'>
+          <p itemprop="name">Вопрос 4</p>
+        </label>
+        <div class="faq--text" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Ответ на вопрос 4</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="faq--item">
+        <input class="faq--input" type="checkbox" name="faq" id="faq_5"></input>
+        <label itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq--label" for='faq_5'>
+          <p itemprop="name">Вопрос 5</p>
+        </label>
+        <div class="faq--text" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Ответ на вопрос 5</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!----------------------------------------------->
+    <div class="contacts-box container">
+      <h2 class="h2-item">Контакты</h2>
+    </div>
+    <!----------------------------------------------->
 
 </body>
 

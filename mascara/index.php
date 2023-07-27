@@ -27,15 +27,12 @@ require '../mascara/templates/head.html';
     </div>
     <div class="banner-two">
       <div class="banner--slider-post">
-        <button>123</button>
-        <button>123</button>
-        <button>123</button>
       </div>
     </div>
   </div>
   <!----------------------------------------------->
   <div class="advantages-box container">
-    <h2 class="h2-item">Взгляд внушающий уверенность</h2>
+    <h2 class="h2-item  wow animate__backInDown">Взгляд внушающий уверенность</h2>
     <div class="advantages--img">
       <div class="advantages--img--item">
         <div class="advantages--img--container">
@@ -193,18 +190,80 @@ require '../mascara/templates/head.html';
   <!----------------------------------------------->
   <div class="black-box--masters container">
     <h2 class="h2-item">Ведущие мастера Тюмени</h2>
+    <div class="black-box--masters--main">
+      <div class="black-box--masters--left">
+        <div class="black-box--masters--name">Диана</div>
+        <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
+        <div class="black-box--masters--btn btn">Записаться on-line</div>
+      </div>
+      <div class="black-box--masters--rigth">
+        <div class="black-box--masters--photo"></div>
+      </div>
+    </div>
+    <div class="black-box--masters--main">
+      <div class="black-box--masters--left">
+        <div class="black-box--masters--name">Диана</div>
+        <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
+        <div class="black-box--masters--btn btn">Записаться on-line</div>
+      </div>
+      <div class="black-box--masters--rigth">
+        <div class="black-box--masters--photo"></div>
+      </div>
+    </div>
+    <div class="black-box--masters--main">
+      <div class="black-box--masters--left">
+        <div class="black-box--masters--name">Диана</div>
+        <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
+        <div class="black-box--masters--btn btn">Записаться on-line</div>
+      </div>
+      <div class="black-box--masters--rigth">
+        <div class="black-box--masters--photo"></div>
+      </div>
+    </div>
   </div>
+
   <!----------------------------------------------->
   <div class="reviews-box container">
     <h2 class="h2-item">Отзывы</h2>
+    <div class="reviews-box-greed">
+      <div class="reviews-box-greed--item"></div>
+      <div class="reviews-box-greed--item"></div>
+      <div class="reviews-box-greed--item"></div>
+    </div>
   </div>
   <!----------------------------------------------->
   <div class="entryonline-box container">
     <h2 class="h2-item">Записаться on-line</h2>
+    <div class="entryonline-box-greed">
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+      <div class="entryonline-box-greed--item"></div>
+    </div>
   </div>
   <!----------------------------------------------->
-  <div class="black-box container">
-    <h2 class="h2-item">Заголовок H2</h2>
+  <div class="black-box--saller">
+    <div class="black-box--saller--main">
+    <div class="black-box--saller--left">
+      <p class="black-box--saller--text">РЫБИЙ ТЕКСТ РАССКАЗЫАЮЩИЙ О ТОМ ЧТО ЕСТЬ СКИДКА НА СЛЕДУЮЩЕЕ НАРАЩИВАНИЕ за подругу. РЫБИЙ ТЕКСТ РАССКАЗЫАЮЩИЙ О ТОМ ЧТО ЕСТЬ СКИДКА НА СЛЕДУЮЩЕЕ НАРАЩИВАНИЕ за подругу. РЫБИЙ ТЕКСТ РАССКАЗЫАЮЩИЙ О ТОМ ЧТО ЕСТЬ СКИДКА НА СЛЕДУЮЩЕЕ НАРАЩИВАНИЕ ЗА ОТЗЫВ. РЫБИЙ ТЕКСТ РАССКАЗЫАЮЩИЙ О ТОМ ЧТО ЕСТЬ СКИДКА НА СЛЕДУЮЩЕЕ НАРАЩИВАНИЕ ЗА ОТЗЫВ. </p>
+      <div class="black-box--saller--btn btn">Смотреть все акции</div>
+    </div>
+    <div class="black-box--saller--rigth">
+    <div class="black-box--saller--img"></div>
+    </div>
+  </div>
   </div>
   <!----------------------------------------------->
   <div class="faq-box container">
@@ -264,15 +323,38 @@ require '../mascara/templates/head.html';
         </div>
       </div>
     </div>
+  </div>
+  <!----------------------------------------------->
+  <div class="contacts-box">
+    <h2 class="h2-item">Контакты</h2>
+    <div class="contacts-box--main">
+      <div class="contacts-box--left">
+        <div class="contacts-box--map map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A458c455a6ec62c32352489a4a90cf809c9b3366652b58b7894a4d7a307bd667b&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+      <div class="contacts-box--right">
+        <div class="contacts-box--logo">
+          <p class="contacts-box--logo--item">MASCARA</p>
+        </div>
+          <ul class="contacts-box--spidok" >
+            <li  class="contacts-box--spidok--item">г. Тюмень, ул. Мельникайте 125Б, 3 этаж </li>
+            <li  class="contacts-box--spidok--item">Предварительная запись</li>
+            <li  class="contacts-box--spidok--item">+7 (922) 480-20-72</li>
+          </ul>
+          <div class="contacts-box--btn btn">Записаться on-line</div>
+          <div class="contacts-box--soc">
+            <div class="contacts-box--soc--item">1</div>
+            <div class="contacts-box--soc--item">1</div>
+            <div class="contacts-box--soc--item">1</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!----------------------------------------------->
-    <div class="contacts-box container">
-      <h2 class="h2-item">Контакты</h2>
-    </div>
-    <!----------------------------------------------->
+  </div>
+  <!----------------------------------------------->
 
 </body>
-
 <!----------------------------------------------->
 <?php
 /* Footer */

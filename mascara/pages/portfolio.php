@@ -15,7 +15,20 @@ require '/Applications/MAMP/htdocs/portfolio/mascara/templates/head.html';
 ?>
 
 <body>
-  123
+<div class="portfolio-box container">
+    <h2 class="h2-item">Последние выполненные работы</h2>
+    <div class="portfolio-box-greed">
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+      <div class="portfolio-box-greed--item"></div>
+    </div>
+  </div>
 </body>
 
 <?php

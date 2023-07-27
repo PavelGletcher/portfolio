@@ -15,7 +15,8 @@ require '/Applications/MAMP/htdocs/portfolio/mascara/templates/head.html';
 ?>
 
 <body>
-  123
+  <!-- EasyWeek Appointment Widget: https://easyweek.ru/ -->
+123
 </body>
 
 <?php

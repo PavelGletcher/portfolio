@@ -194,7 +194,7 @@ require '../mascara/templates/head.html';
       <div class="black-box--masters--left">
         <div class="black-box--masters--name">Диана</div>
         <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
-        <div class="black-box--masters--btn btn">Записаться on-line</div>
+        <div class="black-box--masters--btn booking btn">Записаться on-line</div>
       </div>
       <div class="black-box--masters--rigth">
         <div class="black-box--masters--photo"></div>
@@ -204,7 +204,7 @@ require '../mascara/templates/head.html';
       <div class="black-box--masters--left">
         <div class="black-box--masters--name">Диана</div>
         <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
-        <div class="black-box--masters--btn btn">Записаться on-line</div>
+        <div class="black-box--masters--btn booking btn">Записаться on-line</div>
       </div>
       <div class="black-box--masters--rigth">
         <div class="black-box--masters--photo"></div>
@@ -214,7 +214,7 @@ require '../mascara/templates/head.html';
       <div class="black-box--masters--left">
         <div class="black-box--masters--name">Диана</div>
         <div class="black-box--masters--biogarphy">Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. Биография мастера в неформальном стиле. </div>
-        <div class="black-box--masters--btn btn">Записаться on-line</div>
+        <div class="black-box--masters--btn booking btn">Записаться on-line</div>
       </div>
       <div class="black-box--masters--rigth">
         <div class="black-box--masters--photo"></div>
@@ -223,34 +223,17 @@ require '../mascara/templates/head.html';
   </div>
 
   <!----------------------------------------------->
+  <div class="entryonline-box container">
+    <h2 class="h2-item">Записаться on-line</h2>
+      <iframe class="entryonline-box-iframe" src="https://units.easyweek.io/mascaratmn"></iframe>
+  </div>
+  <!----------------------------------------------->
   <div class="reviews-box container">
     <h2 class="h2-item">Отзывы</h2>
     <div class="reviews-box-greed">
       <div class="reviews-box-greed--item"></div>
       <div class="reviews-box-greed--item"></div>
       <div class="reviews-box-greed--item"></div>
-    </div>
-  </div>
-  <!----------------------------------------------->
-  <div class="entryonline-box container">
-    <h2 class="h2-item">Записаться on-line</h2>
-    <div class="entryonline-box-greed">
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
-      <div class="entryonline-box-greed--item"></div>
     </div>
   </div>
   <!----------------------------------------------->
@@ -342,7 +325,7 @@ require '../mascara/templates/head.html';
             <li  class="contacts-box--spidok--item">Предварительная запись</li>
             <li  class="contacts-box--spidok--item">+7 (922) 480-20-72</li>
           </ul>
-          <div class="contacts-box--btn btn">Записаться on-line</div>
+          <div class="contacts-box--btn booking btn">Записаться on-line</div>
           <div class="contacts-box--soc">
             <div class="contacts-box--soc--item">1</div>
             <div class="contacts-box--soc--item">1</div>
@@ -360,3 +343,5 @@ require '../mascara/templates/head.html';
 /* Footer */
 require '../mascara/templates/footer.html';
 ?>
+
+

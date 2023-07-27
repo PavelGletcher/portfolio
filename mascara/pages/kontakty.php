@@ -32,7 +32,7 @@ require '/Applications/MAMP/htdocs/portfolio/mascara/templates/head.html';
             <li  class="contacts-box--spidok--item">Предварительная запись</li>
             <li  class="contacts-box--spidok--item">+7 (922) 480-20-72</li>
           </ul>
-          <div class="contacts-box--btn btn">Записаться on-line</div>
+          <div class="contacts-box--btn booking btn">Записаться on-line</div>
           <div class="contacts-box--soc">
             <div class="contacts-box--soc--item">1</div>
             <div class="contacts-box--soc--item">1</div>

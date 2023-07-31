@@ -1,4 +1,8 @@
 @font-face {
-  font-family: 'start';
-  src: url();
+  font-family: 'Montserrat-Bold', sans-serif;
+  src: url(./mascara/project/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Medium', sans-serif;
+  src: url(Montserrat-Medium.ttf);
 }

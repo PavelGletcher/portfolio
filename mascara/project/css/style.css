@@ -1,0 +1,244 @@
+* {}
+.h1 {font-size: 3.4rem; letter-spacing: 2px;}
+.h2 {font-size: 2.3rem; letter-spacing: 2px; padding-bottom: 2%;}
+.h3 {font-size: 1.8rem; letter-spacing: 2px;}
+img {}
+a {color: inherit;}
+body {
+  font-family: 'Montserrat-Medium';
+  letter-spacing: 1px;
+}
+
+.container {width: auto; height: auto; padding: 3% 10%;}
+.blackbox {background-color: #1E1E1E; color: #F0F0F0; height: 30vh;}
+
+/*================================================================================================================*/
+.box--banner {
+  display: flex;
+  align-items: center;
+  background-color: #1E1E1E;
+  color: #F0F0F0;
+  height: 60vh;
+}
+.box--banner--left {width: 100%;}
+
+.box--banner--left--caaction {
+  padding: 8% 0%;
+}
+.box--banner--left--button {
+  border: solid #F0F0F0;
+  border-radius: 8px;
+  padding: 15px;
+  width: 30%;
+  cursor: pointer;
+  text-align: center;
+}
+.box--banner--right--slider {
+}
+
+.box--banner--right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*================================================================================================================*/
+
+.box--advantages {
+}
+.box--advantages--h2 {
+}
+.box--advantages--item {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.box--advantages--img {
+}
+
+/*================================================================================================================*/
+
+.box--perspective {
+  display: flex;
+  align-items: center;
+}
+.box--perspective--left {width: 100%;
+}
+.box--perspective--left--h2 {
+}
+.box--perspective--right {width: 100%;
+}
+.box--perspective--right--text {
+}
+
+/*================================================================================================================*/
+
+.box--services {
+}
+.box--services--item {
+  display: flex;
+  align-items: center;
+}
+.box--services--left {width: 100%;
+}
+.box--services--left--h3 {
+}
+.box--services--left--text {
+}
+.box--services--left--button {
+}
+.box--services--right {width: 100%; background-color: red;
+}
+.box--services--right--img {
+}
+
+/*================================================================================================================*/
+
+.box--manyservices {
+}
+.box--manyservices--left {
+}
+.box--manyservices--rigth {
+}
+.box--manyservices--rigth--text {
+}
+.box--manyservices--rigth--button {
+}
+
+/*================================================================================================================*/
+
+.box--office {
+}
+.box--office--h2 {
+}
+.box--office--slider {
+}
+.box--office--slider--line {
+}
+.box--office--slider-item {
+}
+.box--office--photo {
+}
+.box--office--photo--item {
+}
+.box--office--advantages {
+}
+.box--office--advantages--spisok {
+}
+
+/*================================================================================================================*/
+
+.box--promotion {
+}
+.box--promotion--left {
+}
+.box--promotion--left--text {
+}
+.box--promotion--left--button {
+}
+.booking {
+}
+.box--promotion--rigth {
+}
+
+/*================================================================================================================*/
+
+.box--portfolio {
+}
+.box--portfolio--gallery {
+}
+.box--portfolio--gallery--item {
+}
+
+/*================================================================================================================*/
+
+.box--masters {
+}
+.box--masters--h2 {
+}
+.box--masters--item {
+}
+.box--masters--left {
+}
+.box--masters--left--name {
+}
+.box--masters--left--text {
+}
+.box--masters--left--button {
+}
+.box--masters--rigth {
+}
+.box--masters--rigth--photo {
+}
+
+/*================================================================================================================*/
+
+.box--reviews {
+}
+.box--reviews--h2 {
+}
+.box--reviews--slider {
+}
+.box--reviews--slider--line {
+}
+.box--reviews--slider--line--item {
+}
+.box--reviews--text {
+}
+.box--reviews--button {
+}
+
+/*================================================================================================================*/
+
+.box--entry {
+}
+
+/*================================================================================================================*/
+
+.box--promotiontwo {
+}
+.box--promotiontwo--left {
+}
+.box--promotiontwo--left--text {
+}
+.box--promotiontwo--left--button {
+}
+.box--promotiontwo-right {
+}
+
+/*================================================================================================================*/
+
+.box--faq {
+}
+.box--faq--h2 {
+}
+.box--faq--accordion {
+}
+.box--faq--accordion--btn {
+}
+.box--faq--accordion--label {
+}
+.box--faq--accordion--text {
+}
+
+/*================================================================================================================*/
+
+.box--contacts {
+}
+.box--contacts--h2 {
+}
+.box--contacts--left {
+}
+.box--contacts--left--maps {
+}
+.box--contacts--rigth {
+}
+.box--contacts--rigth--logo {
+}
+.box--contacts--rigth--contacts {
+}
+.box--contacts--rigth--social {
+}
+.box--contacts--rigth--social--item {
+}
+.box--contacts--rigth--button {
+}

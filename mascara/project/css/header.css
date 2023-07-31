@@ -1,0 +1,27 @@
+.box--header {
+  background-color: #1E1E1E;
+  color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+}
+.box--header--nav--spisok {
+  display: flex;
+  gap: 25px;
+}
+.box--header--logo {
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+.box--header--nav--spisok {
+  padding-left: 50%;
+}
+.box--header--spisok--item {
+}
+.box--header--button {
+  border: 2px solid #EDEDED;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+}

@@ -1,6 +1,6 @@
 <footer>
 <div class="box--footer container">
-  
+  FOOTER
 </div>
   <?php
 /* link js */

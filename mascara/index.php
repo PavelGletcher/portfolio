@@ -18,7 +18,7 @@ require './project/templates/head.php';
 </head>
 <?php
 /* header */
-require './project/templates/header.html';
+require './project/templates/header.php';
 ?>
 
 <body>
@@ -28,7 +28,7 @@ require './project/templates/header.html';
         <h1>Наращивание ресниц Тюмень</h1>
       </div>
       <div class="box--banner--left--caaction"><span>Дарим 500 рублей на первое наращивание</span></div>
-      <div class="box--banner--left--button"><span><a href="#">Подробнее</a></span></div>
+      <div class="box--banner--left--button btnblack"><a href="#">Подробнее</a></div>
     </div>
     <div class="box--banner--right">
       <div class="box--banner--right--slider">
@@ -74,7 +74,7 @@ require './project/templates/header.html';
           <h3>Классическое наращивание</h3>
         </div>
         <div class="box--services--left--text">Преимущества данного наращивания</div>
-        <div class="box--services--left--button"><span><a href="#">Подробнее</a></span></div>
+        <div class="box--services--left--button btnwhite"><a href="#">Подробнее</a></div>
       </div>
       <div class="box--services--right">
         <div class="box--services--right--img"><img src="#" alt="Мастер по наращиванию ресниц в Тюмени"></div>
@@ -86,7 +86,7 @@ require './project/templates/header.html';
           <h3>Наращивание 2D</h3>
         </div>
         <div class="box--services--left--text">Преимущества данного наращивания</div>
-        <div class="box--services--left--button"><span><a href="#">Подробнее</a></span></div>
+        <div class="box--services--left--button btnwhite"><a href="#">Подробнее</a></div>
       </div>
       <div class="box--services--right">
         <div class="box--services--right--img"><img src="#" alt="Мастер по наращиванию ресниц в Тюмени"></div>
@@ -98,7 +98,7 @@ require './project/templates/header.html';
           <h3>Мокрое наращивание ресниц</h3>
         </div>
         <div class="box--services--left--text">Преимущества данного наращивания</div>
-        <div class="box--services--left--button"><span><a href="#">Подробнее</a></span></div>
+        <div class="box--services--left--button btnwhite"><a href="#">Подробнее</a></div>
       </div>
       <div class="box--services--right">
         <div class="box--services--right--img"><img src="#" alt="Мастер по наращиванию ресниц в Тюмени"></div>
@@ -112,7 +112,7 @@ require './project/templates/header.html';
       <div class="box--manyservices--rigth--text">
         <p>Рассказываем что услуг много</p>
       </div>
-      <div class="box--manyservices--rigth--button"><span><a href="#">Все услуги</a></span></div>
+      <div class="box--manyservices--rigth--button btnblack"><a href="#">Все услуги</a></div>
     </div>
   </div>
 
@@ -149,7 +149,7 @@ require './project/templates/header.html';
   <div class="box--promotion blackbox container">
     <div class="box--promotion--left">
       <div class="box--promotion--left--text"></div>
-      <div class="box--promotion--left--button booking"><span><a href="#">Записаться on-line</a></span></div>
+      <div class="box--promotion--left--button booking btnblack"><a href="#">Записаться on-line</a></div>
     </div>
     <div class="box--promotion--rigth"></div>
   </div>
@@ -180,7 +180,7 @@ require './project/templates/header.html';
         <div class="box--masters--left--text">
           <p>Биография мастера</p>
         </div>
-        <div class="box--masters--left--button booking"><span><a href="#">Записаться on-line</a></span></div>
+        <div class="box--masters--left--button booking btnblack"><a href="#">Записаться on-line</a></div>
       </div>
       <div class="box--masters--rigth">
         <div class="box--masters--rigth--photo"><img src="#" alt="Фото мастера по наращиванию в Тюмени"></div>
@@ -194,7 +194,7 @@ require './project/templates/header.html';
         <div class="box--masters--left--text">
           <p>Биография мастера</p>
         </div>
-        <div class="box--masters--left--button booking"><span><a href="#">Записаться on-line</a></span></div>
+        <div class="box--masters--left--button booking btnblack"><a href="#">Записаться on-line</a></div>
       </div>
       <div class="box--masters--rigth">
         <div class="box--masters--rigth--photo"><img src="#" alt="Фото мастера по наращиванию в Тюмени"></div>
@@ -224,7 +224,7 @@ require './project/templates/header.html';
   <div class="box--promotiontwo blackbox container">
     <div class="box--promotiontwo--left">
       <div class="box--promotiontwo--left--text">Есть скидка на следующее наращивание</div>
-      <div class="box--promotiontwo--left--button"><span><a href="#">Смотреть все акции</a></span></div>
+      <div class="box--promotiontwo--left--button btnblack"><a href="#">Смотреть все акции</a></div>
     </div>
     <div class="box--promotiontwo-right"></div>
   </div>

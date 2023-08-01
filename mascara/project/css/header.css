@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1%;
+  padding: 1% 10% 0% 10%;
 }
 .box--header--nav--spisok {
   display: flex;
@@ -18,6 +18,7 @@
   padding-left: 50%;
 }
 .box--header--spisok--item {
+  cursor: pointer;
 }
 .box--header--button {
   border: 2px solid #EDEDED;

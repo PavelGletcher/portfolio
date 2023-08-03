@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'OS400', sans-serif;
+  src: url(/fonts/OpenSans_Condensed-Regular400.ttf);
+}
+@font-face {
+  font-family: 'OS600', sans-serif;
+  src: url(/fonts/OpenSans_Condensed-SemiBold600.ttf);
+}
+@font-face {
+  font-family: 'PD400', sans-serif;
+  src: url(/fonts/PlayfairDisplay-Regular400.ttf);
+}
+@font-face {
+  font-family: 'OS700', sans-serif;
+  src: url(/fonts/PlayfairDisplay-Bold700.ttf);
+}

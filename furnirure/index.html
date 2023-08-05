@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/adaptive.css">
-  <link rel="stylesheet" href="/css/font.css">
-  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/furnirure/css/style.css">
+  <link rel="stylesheet" href="/furnirure/css/adaptive.css">
+  <link rel="stylesheet" href="/furnirure/css/font.css">
+  <link rel="stylesheet" href="/furnirure/css/reset.css">
   <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
   <title>Furniture</title>
 </head>
 <body>
   <header>
-    <div class="box-navigation container">
-      <div class="logo"><img src="/img/logo.png" alt="Лого"></div>
+    <div class="box-navigation">
+      <div class="logo"><img src="/furnirure/img/logo.png" alt="Лого"></div>
       <div class="menu">
         <ul class="menu--spisok">
           <li class="menu--spisok--item">Мебель</li>
@@ -21,26 +21,33 @@
           <li class="menu--spisok--item">Текстиль</li>
         </ul>
       </div>
-      <div class="search"><img src="/img/search.png" alt="Поиск"></div>
+      <div class="navigation-right-item">
+      <div class="search"><img src="/furnirure/img/search.png" alt="Поиск"></div>
       <div class="basket"><img src="" alt="basket"></div>
+    </div>
     </div>
   </header>
 
   <main>
+    <div class="right--qudro"></div>
     <div class="box-bannerslider container">
       <div class="box-bannerslider--left">
         <div class="box-bannerslider--left--h1">Дизайнерская мебель</div>
         <div class="box-bannerslider--left--productname">Кресло “Антиква”</div>
+        <div class="box-bannerslider--left--product--item">
         <div class="box-bannerslider--left--productsalle">$380</div>
         <div class="box-bannerslider--left--productprice">$240</div>
+        </div>
         <div class="box-bannerslider--left--button">Купить</div>
       </div>
       <div class="box-bannerslider--right">
-        <div class="box-bannerslider--right--productimg"><img src="/img/headnew.png" value="1" alt="Мебель"></div>
-        <div class="box-bannerslider--right--productid">1</div>
-        <div class="box-bannerslider--right--productid">2</div>
-        <div class="box-bannerslider--right--productid">3</div>
-        <div class="box-bannerslider--right--productid">4</div>
+        <div class="box-bannerslider--right--productimg"><img src="/furnirure/img/headnew.png" value="1" alt="Мебель"></div>
+        <ul class="box-bannerslider--right--container--productid">
+            <li class="box-bannerslider--right--container--numroduct" id="numproduct1">01</li>
+            <li class="box-bannerslider--right--container--numroduct" id="numproduct2">02</li>
+            <li class="box-bannerslider--right--container--numroduct" id="numproduct3">03</li>
+            <li class="box-bannerslider--right--container--numroduct" id="numproduct4">04</li>
+        </ul>
       </div>
     </div>
     
@@ -52,6 +59,7 @@
 
   <footer>
     <div class="box-shans container"></div>
+    <script src="/furnirure/scripts/bannerslider.js"></script>
   </footer>
 </body>
 </html>
